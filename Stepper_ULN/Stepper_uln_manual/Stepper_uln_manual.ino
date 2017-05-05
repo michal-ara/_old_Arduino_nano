@@ -1,3 +1,13 @@
+/*
+ * Source code for stepper engine. 
+ * My own library. 
+ * Used component:
+ *  + Arduino NANO
+ *  + Step motor 28BYJ-48 5V DC (4 lines)
+ *  + module board with ULN2003APG
+ * Power (5V) from laptop output.
+ */
+
 #include <Stepper.h>
 
 #define DEBUG true
